@@ -50,3 +50,38 @@ fn main(){
 
 }
 
+/* ----------------- */
+
+
+fn main(){
+    for _ in 1..=5{
+        println!("hello");
+    }
+}
+
+//not necessary to use a separate variable for loop
+
+// valid code
+
+
+
+fn main(){
+    let mut n:i32=1;
+    for n in n..=5{
+        println!("hello");
+    }
+}
+
+// also valid
+
+
+
+fn main(){
+    let start = 1;
+    for n in start..=5 {
+        println!("hello {}", n);
+    }
+}
+
+
+// also valid
